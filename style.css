@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Titillium+Web&display=swap');
+:root{
+    --primary_color:#A73121;
+    --secondary_color:#DAD4B5;
+    --accent_color:#F2E8C6;
+    --primary_font: 'Oswald', sans-serif;
+    --secondary_font:'Titillium Web', sans-serif;
+}
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-color: var(--primary_color);
+}
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2%;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+ul li a,.logo a{
+    font-family: var(--primary_font);
+    color: var(--secondary_color);
+}
+section{
+    width: 100vw;
+}
+#home >div{
+    width: 50%;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero h1{
+    font-family: var(--secondary_font);
+    font-size: 7rem;
+}
